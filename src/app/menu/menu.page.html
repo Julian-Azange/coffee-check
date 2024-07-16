@@ -1,0 +1,69 @@
+<ion-content [fullscreen]="true">
+  <div class="container bg-image no-scroll">
+
+
+    <ion-row class="tagline">
+      <ion-col class="ion-margin">
+        <ion-label>
+          <h1 style="font-size: 20px; font-weight: 600;">
+            Hola, 
+            <br>
+            <span class="text-red">Bienvenido</span>
+          </h1>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+
+    <div class="video-container">
+      <img src="../../assets/images/imagen.png" alt="">
+    </div>
+
+    <div class="cards-container">
+      <ion-grid>
+        <ion-row>
+
+          <ion-col size="6" class="card-lg-1">
+            <ion-card (click)="navigateIA()" class="green-light">
+              <ion-card-header>
+                <ion-icon name="aperture" class="card-icon"></ion-icon>
+                <ion-card-title>Caracterizar con IA</ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+
+          <ion-col size="6" class="card-sm-1">
+            <ion-card (click)="navigateDataSheet()" class="green-light">
+              <ion-card-header>
+                <ion-icon name="images" class="card-icon"></ion-icon>
+                <ion-card-title>Fichas Técnicas</ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+
+        </ion-row>
+        <ion-row>
+
+          <ion-col size="6" class="card-sm-2">
+            <ion-card (click)="navigateValidation()" class="green-light">
+              <ion-card-header>
+                <ion-icon name="cog" class="card-icon"></ion-icon>
+                <ion-card-title>Validaciones</ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+
+          <ion-col size="6" class="card-lg-2">
+            <ion-card (click)="navigateRecomendations()" class="green-light">
+              <ion-card-header>
+                <ion-icon name="git-compare" class="card-icon"></ion-icon>
+                <ion-card-title>Recomendaciones</ion-card-title>
+              </ion-card-header>
+            </ion-card>
+          </ion-col>
+
+        </ion-row>
+
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>

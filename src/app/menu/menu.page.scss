@@ -1,0 +1,140 @@
+ion-content {
+    // --background: #e9e9e8;
+    /* Ajusta el color de fondo según tus necesidades */
+    display: flex;
+  
+    height: 100vh;
+    /* Asegura que el contenido ocupe toda la pantalla */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.bg-image {
+    background-image: url("../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.text-red {
+    color: #e74c63;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.custom-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--ion-background-color);
+}
+
+.toolbar-title {
+    flex: 2;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--ion-text-color);
+
+}
+
+.primary {
+    color: #3880ff;
+}
+
+.logo-img {
+    width: 60px;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.video-container {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.menu-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ion-row {
+    margin-bottom: 15px;
+}
+
+ion-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card-lg-1{
+    height: 12rem;
+}
+
+.card-lg-2{
+    height: 12rem;
+    margin-top: -60px;
+}
+
+.card-sm-1{
+    height: 8rem;
+}
+.card-sm-2{
+    height: 8rem;
+}
+
+.green-light {
+    background-color: #e74c63;
+}
+
+.card-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #fefeff;
+}
+
+ion-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fefeff;
+}
+
+ion-card-header svg {
+    width: 50px;
+}
+
+ion-card-title {
+    font-size: 15px;
+    color: #fefeff;
+}
