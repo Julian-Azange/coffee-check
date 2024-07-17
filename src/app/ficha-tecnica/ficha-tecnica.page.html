@@ -1,0 +1,88 @@
+<ion-header [translucent]="true"  class="ion-no-border">
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <ion-button (click)="goBack()">
+        <ion-icon class="icon-back" name="chevron-back-outline">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>
+      Roya café
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <swiper-container [loop]="false" [pagination]="true">
+
+    <swiper-slide>
+      <img src="../../assets/images/roya.jpeg" alt="Machine Image 1">
+    </swiper-slide>
+
+    <swiper-slide>
+      <img src="../../assets/images/roya.jpeg" alt="Machine Image 1">
+    </swiper-slide>
+
+    <swiper-slide>
+      <img src="../../assets/images/roya.jpeg" alt="Machine Image 1">
+    </swiper-slide>
+
+  </swiper-container>
+
+  <div class="content-container">
+
+    <div class="d-title">
+      <ion-text class="name-data">
+        Roya café
+        <p class="name-subtitle">
+          Enfermedad del cultivo de café.
+        </p>
+      </ion-text>
+      <!-- <p class="text-center">
+        <ion-badge class="bg-cyan mr-1">
+          <ion-text class="text-badge">
+            Virus
+          </ion-text>
+        </ion-badge>
+        
+        <ion-badge class="bg-cyan mr-1">
+          <ion-text class="text-badge">
+            Enfermedad
+          </ion-text>
+        </ion-badge>
+        
+        <ion-badge class="bg-cyan">
+          <ion-text class="text-badge">
+            Hongo
+          </ion-text>
+        </ion-badge>
+
+      </p> -->
+    </div>
+
+    <div class="d-description mt-2">
+      <ion-text class="name-description">
+        Características
+      </ion-text>
+      <ul class="list-ul">
+        <li>
+          <p class="description">
+            Descripción detallada de la máquina. Aquí se puede proporcionar información extensa sobre las características,
+            uso, y beneficios de la máquina.
+          </p>
+        </li>
+        <li>
+          <p class="description">
+            Descripción detallada de la máquina.
+          </p>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</ion-content>

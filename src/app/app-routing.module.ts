@@ -15,6 +15,14 @@ const routes: Routes = [
     path: 'menu',
     loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
   },
+  {
+    path: 'fichas',
+    loadChildren: () => import('./fichas/fichas.module').then( m => m.FichasPageModule)
+  },
+  {
+    path: 'ficha-tecnica',
+    loadChildren: () => import('./ficha-tecnica/ficha-tecnica.module').then( m => m.FichaTecnicaPageModule)
+  },
 ];
 
 @NgModule({
