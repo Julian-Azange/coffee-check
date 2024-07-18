@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'ficha-tecnica',
     loadChildren: () => import('./ficha-tecnica/ficha-tecnica.module').then( m => m.FichaTecnicaPageModule)
   },
+  {
+    path: 'caracterizacion-ia',
+    loadChildren: () => import('./caracterizacion-ia/caracterizacion-ia.module').then( m => m.CaracterizacionIaPageModule)
+  },
 ];
 
 @NgModule({

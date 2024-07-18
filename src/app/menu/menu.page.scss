@@ -21,6 +21,14 @@ ion-content {
     background-size: cover;
 }
 
+.bg-image-card {
+    background-image: url("../../assets/images/hojas.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 .no-scroll {
     overflow: hidden;
 }
@@ -96,7 +104,7 @@ ion-card {
 }
 
 .green-light {
-    background-color: #809e59;
+    background-color: #305810;
 }
 
 .card-icon {

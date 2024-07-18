@@ -17,7 +17,7 @@ export class FichaTecnicaPage {
   ) { }
 
   goBack(){
-    this.router.navigate(['/menu']);
+    this.router.navigate(['/fichas']);
   }
 
 }

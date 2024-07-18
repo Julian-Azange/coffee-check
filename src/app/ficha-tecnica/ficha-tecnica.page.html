@@ -1,6 +1,6 @@
-<ion-header [translucent]="true"  class="ion-no-border">
+<ion-header [translucent]="true" class="ion-no-border">
   <ion-toolbar>
-    
+
     <ion-buttons slot="start">
       <ion-button (click)="goBack()">
         <ion-icon class="icon-back" name="chevron-back-outline">
@@ -16,53 +16,59 @@
 
 <ion-content [fullscreen]="true">
 
+  <div class="image-container">
+    <h1 class="title-image">
+      Roya café
+    </h1>
+    <swiper-container [loop]="true" [pagination]="true">
 
-  <swiper-container [loop]="false" [pagination]="true">
+      <swiper-slide class="swiper-slide-custom">
+        <img src="../../assets/images/roya.png" alt="Image 1">
+      </swiper-slide>
 
-    <swiper-slide>
-      <img src="../../assets/images/roya.jpeg" alt="Machine Image 1">
-    </swiper-slide>
+      <swiper-slide class="swiper-slide-custom">
+        <img src="../../assets/images/roya.jpeg" alt="Image 1">
+      </swiper-slide>
 
-    <swiper-slide>
-      <img src="../../assets/images/roya.jpeg" alt="Machine Image 1">
-    </swiper-slide>
+      <swiper-slide class="swiper-slide-custom">
+        <img src="../../assets/images/roya.png" alt="Image 1">
+      </swiper-slide>
 
-    <swiper-slide>
-      <img src="../../assets/images/roya.jpeg" alt="Machine Image 1">
-    </swiper-slide>
-
-  </swiper-container>
+    </swiper-container>
+  </div>
 
   <div class="content-container">
 
-    <div class="d-title">
+    <!-- <div class="d-title">
       <ion-text class="name-data">
         Roya café
         <p class="name-subtitle">
           Enfermedad del cultivo de café.
         </p>
       </ion-text>
-      <!-- <p class="text-center">
-        <ion-badge class="bg-cyan mr-1">
-          <ion-text class="text-badge">
-            Virus
-          </ion-text>
-        </ion-badge>
-        
-        <ion-badge class="bg-cyan mr-1">
-          <ion-text class="text-badge">
-            Enfermedad
-          </ion-text>
-        </ion-badge>
-        
-        <ion-badge class="bg-cyan">
-          <ion-text class="text-badge">
-            Hongo
-          </ion-text>
-        </ion-badge>
+    </div> -->
 
-      </p> -->
-    </div>
+    <p class="text-center">
+      <ion-button size="small" fill="outline" class="bg-red mr-1">
+        <ion-text class="text-badge">
+          Enfermedad
+        </ion-text>
+      </ion-button>
+      
+      <ion-button size="small" fill="outline" class="bg-red mr-1">
+        <ion-text class="text-badge">
+          Virus
+        </ion-text>
+      </ion-button>
+      
+      <ion-button size="small" fill="outline" class="bg-red">
+        <ion-text class="text-badge">
+          Hongo
+        </ion-text>
+      </ion-button>
+
+    </p>
+
 
     <div class="d-description mt-2">
       <ion-text class="name-description">
@@ -71,7 +77,8 @@
       <ul class="list-ul">
         <li>
           <p class="description">
-            Descripción detallada de la máquina. Aquí se puede proporcionar información extensa sobre las características,
+            Descripción detallada de la máquina. Aquí se puede proporcionar información extensa sobre las
+            características,
             uso, y beneficios de la máquina.
           </p>
         </li>

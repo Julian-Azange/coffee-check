@@ -1,10 +1,14 @@
+ion-header{
+    background: #ffffff;
+}
+
 ion-content {
     // --background: #e9e9e8;
     /* Ajusta el color de fondo según tus necesidades */
     display: flex;
 
     height: 100vh;
-    /* Asegura que el contenido ocupe toda la pantalla */
+    
 }
 
 .container {
@@ -51,12 +55,6 @@ ion-content {
     font-size: 25px;
     font-weight: 600;
     color: #305810;
-}
-
-.logo-img {
-    width: 60px;
-    padding: .5rem;
-    border-radius: 50%;
 }
 
 .image-container {
